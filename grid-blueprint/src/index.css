@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-950 text-white;
+}
+body{
+  @apply bg-slate-950 text-white;
+  background-image: radial-gradient(#1e293b 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+.input{
+  @apply w-full p-2 rounded bg-slate-800 border border-slate-700;
+}
+.btn{
+  @apply px-4 py-2 rounded bg-cyan-500 hover:bg-cyan-400 active:scale-95 transition;
+}
+
