@@ -13,7 +13,18 @@ body{
 .input{
   @apply w-full p-2 rounded bg-slate-800 border border-slate-700;
 }
+.btn-secondary {
+  @apply px-3 py-2 rounded-md border border-slate-600 
+         hover:border-cyan-400 hover:bg-cyan-400/10
+         text-sm transition;
+}
+
+.btn-danger {
+  @apply px-3 py-2 rounded-md bg-red-500/90 hover:bg-red-500
+         text-white text-sm transition;
+}
 .btn{
   @apply px-4 py-2 rounded bg-cyan-500 hover:bg-cyan-400 active:scale-95 transition;
 }
+
 
